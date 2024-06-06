@@ -4,6 +4,7 @@ const cron = require('node-cron');
 const SimpleChatBot = require('simple-node-chatbot');
 const flow = require('./chatflow.js');
 const dbService = require('./database.js')
+const axios = require("axios").default;
 
 
 const bot = new SimpleChatBot({
